@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29C0CB4A219914BE0020901F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0CB49219914BE0020901F /* AppDelegate.m */; };
+		29C0CB4D219914BE0020901F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0CB4C219914BE0020901F /* ViewController.m */; };
+		29C0CB50219914BE0020901F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C0CB4E219914BE0020901F /* Main.storyboard */; };
+		29C0CB52219914BF0020901F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C0CB51219914BF0020901F /* Assets.xcassets */; };
+		29C0CB55219914BF0020901F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C0CB53219914BF0020901F /* LaunchScreen.storyboard */; };
+		29C0CB58219914BF0020901F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0CB57219914BF0020901F /* main.m */; };
+		29C0CB62219914BF0020901F /* BronCalendarLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0CB61219914BF0020901F /* BronCalendarLibTests.m */; };
+		29C0CB6D219914BF0020901F /* BronCalendarLibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0CB6C219914BF0020901F /* BronCalendarLibUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29C0CB5E219914BF0020901F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C0CB3D219914BE0020901F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0CB44219914BE0020901F;
+			remoteInfo = BronCalendarLib;
+		};
+		29C0CB69219914BF0020901F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C0CB3D219914BE0020901F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0CB44219914BE0020901F;
+			remoteInfo = BronCalendarLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29C0CB45219914BE0020901F /* BronCalendarLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BronCalendarLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0CB48219914BE0020901F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29C0CB49219914BE0020901F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29C0CB4B219914BE0020901F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29C0CB4C219914BE0020901F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29C0CB4F219914BE0020901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29C0CB51219914BF0020901F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29C0CB54219914BF0020901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29C0CB56219914BF0020901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C0CB57219914BF0020901F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29C0CB5D219914BF0020901F /* BronCalendarLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BronCalendarLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0CB61219914BF0020901F /* BronCalendarLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BronCalendarLibTests.m; sourceTree = "<group>"; };
+		29C0CB63219914BF0020901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C0CB68219914BF0020901F /* BronCalendarLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BronCalendarLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0CB6C219914BF0020901F /* BronCalendarLibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BronCalendarLibUITests.m; sourceTree = "<group>"; };
+		29C0CB6E219914BF0020901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29C0CB42219914BE0020901F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0CB5A219914BF0020901F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0CB65219914BF0020901F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C0CB3C219914BE0020901F = {
+			isa = PBXGroup;
+			children = (
+				29C0CB47219914BE0020901F /* BronCalendarLib */,
+				29C0CB60219914BF0020901F /* BronCalendarLibTests */,
+				29C0CB6B219914BF0020901F /* BronCalendarLibUITests */,
+				29C0CB46219914BE0020901F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29C0CB46219914BE0020901F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29C0CB45219914BE0020901F /* BronCalendarLib.app */,
+				29C0CB5D219914BF0020901F /* BronCalendarLibTests.xctest */,
+				29C0CB68219914BF0020901F /* BronCalendarLibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29C0CB47219914BE0020901F /* BronCalendarLib */ = {
+			isa = PBXGroup;
+			children = (
+				29C0CB48219914BE0020901F /* AppDelegate.h */,
+				29C0CB49219914BE0020901F /* AppDelegate.m */,
+				29C0CB4B219914BE0020901F /* ViewController.h */,
+				29C0CB4C219914BE0020901F /* ViewController.m */,
+				29C0CB4E219914BE0020901F /* Main.storyboard */,
+				29C0CB51219914BF0020901F /* Assets.xcassets */,
+				29C0CB53219914BF0020901F /* LaunchScreen.storyboard */,
+				29C0CB56219914BF0020901F /* Info.plist */,
+				29C0CB57219914BF0020901F /* main.m */,
+			);
+			path = BronCalendarLib;
+			sourceTree = "<group>";
+		};
+		29C0CB60219914BF0020901F /* BronCalendarLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				29C0CB61219914BF0020901F /* BronCalendarLibTests.m */,
+				29C0CB63219914BF0020901F /* Info.plist */,
+			);
+			path = BronCalendarLibTests;
+			sourceTree = "<group>";
+		};
+		29C0CB6B219914BF0020901F /* BronCalendarLibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29C0CB6C219914BF0020901F /* BronCalendarLibUITests.m */,
+				29C0CB6E219914BF0020901F /* Info.plist */,
+			);
+			path = BronCalendarLibUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29C0CB44219914BE0020901F /* BronCalendarLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0CB71219914BF0020901F /* Build configuration list for PBXNativeTarget "BronCalendarLib" */;
+			buildPhases = (
+				29C0CB41219914BE0020901F /* Sources */,
+				29C0CB42219914BE0020901F /* Frameworks */,
+				29C0CB43219914BE0020901F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BronCalendarLib;
+			productName = BronCalendarLib;
+			productReference = 29C0CB45219914BE0020901F /* BronCalendarLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29C0CB5C219914BF0020901F /* BronCalendarLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0CB74219914BF0020901F /* Build configuration list for PBXNativeTarget "BronCalendarLibTests" */;
+			buildPhases = (
+				29C0CB59219914BF0020901F /* Sources */,
+				29C0CB5A219914BF0020901F /* Frameworks */,
+				29C0CB5B219914BF0020901F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C0CB5F219914BF0020901F /* PBXTargetDependency */,
+			);
+			name = BronCalendarLibTests;
+			productName = BronCalendarLibTests;
+			productReference = 29C0CB5D219914BF0020901F /* BronCalendarLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29C0CB67219914BF0020901F /* BronCalendarLibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0CB77219914BF0020901F /* Build configuration list for PBXNativeTarget "BronCalendarLibUITests" */;
+			buildPhases = (
+				29C0CB64219914BF0020901F /* Sources */,
+				29C0CB65219914BF0020901F /* Frameworks */,
+				29C0CB66219914BF0020901F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C0CB6A219914BF0020901F /* PBXTargetDependency */,
+			);
+			name = BronCalendarLibUITests;
+			productName = BronCalendarLibUITests;
+			productReference = 29C0CB68219914BF0020901F /* BronCalendarLibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29C0CB3D219914BE0020901F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Bron;
+				TargetAttributes = {
+					29C0CB44219914BE0020901F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					29C0CB5C219914BF0020901F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 29C0CB44219914BE0020901F;
+					};
+					29C0CB67219914BF0020901F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 29C0CB44219914BE0020901F;
+					};
+				};
+			};
+			buildConfigurationList = 29C0CB40219914BE0020901F /* Build configuration list for PBXProject "BronCalendarLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29C0CB3C219914BE0020901F;
+			productRefGroup = 29C0CB46219914BE0020901F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C0CB44219914BE0020901F /* BronCalendarLib */,
+				29C0CB5C219914BF0020901F /* BronCalendarLibTests */,
+				29C0CB67219914BF0020901F /* BronCalendarLibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29C0CB43219914BE0020901F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0CB55219914BF0020901F /* LaunchScreen.storyboard in Resources */,
+				29C0CB52219914BF0020901F /* Assets.xcassets in Resources */,
+				29C0CB50219914BE0020901F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0CB5B219914BF0020901F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0CB66219914BF0020901F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29C0CB41219914BE0020901F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0CB4D219914BE0020901F /* ViewController.m in Sources */,
+				29C0CB58219914BF0020901F /* main.m in Sources */,
+				29C0CB4A219914BE0020901F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0CB59219914BF0020901F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0CB62219914BF0020901F /* BronCalendarLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0CB64219914BF0020901F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0CB6D219914BF0020901F /* BronCalendarLibUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29C0CB5F219914BF0020901F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C0CB44219914BE0020901F /* BronCalendarLib */;
+			targetProxy = 29C0CB5E219914BF0020901F /* PBXContainerItemProxy */;
+		};
+		29C0CB6A219914BF0020901F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C0CB44219914BE0020901F /* BronCalendarLib */;
+			targetProxy = 29C0CB69219914BF0020901F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29C0CB4E219914BE0020901F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29C0CB4F219914BE0020901F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29C0CB53219914BF0020901F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29C0CB54219914BF0020901F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29C0CB6F219914BF0020901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29C0CB70219914BF0020901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29C0CB72219914BF0020901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CH6N4U2S8;
+				INFOPLIST_FILE = BronCalendarLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Industry.BronCalendarLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29C0CB73219914BF0020901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CH6N4U2S8;
+				INFOPLIST_FILE = BronCalendarLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Industry.BronCalendarLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29C0CB75219914BF0020901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CH6N4U2S8;
+				INFOPLIST_FILE = BronCalendarLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Industry.BronCalendarLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BronCalendarLib.app/BronCalendarLib";
+			};
+			name = Debug;
+		};
+		29C0CB76219914BF0020901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CH6N4U2S8;
+				INFOPLIST_FILE = BronCalendarLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Industry.BronCalendarLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BronCalendarLib.app/BronCalendarLib";
+			};
+			name = Release;
+		};
+		29C0CB78219914BF0020901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CH6N4U2S8;
+				INFOPLIST_FILE = BronCalendarLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Industry.BronCalendarLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BronCalendarLib;
+			};
+			name = Debug;
+		};
+		29C0CB79219914BF0020901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CH6N4U2S8;
+				INFOPLIST_FILE = BronCalendarLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Industry.BronCalendarLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BronCalendarLib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29C0CB40219914BE0020901F /* Build configuration list for PBXProject "BronCalendarLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0CB6F219914BF0020901F /* Debug */,
+				29C0CB70219914BF0020901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0CB71219914BF0020901F /* Build configuration list for PBXNativeTarget "BronCalendarLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0CB72219914BF0020901F /* Debug */,
+				29C0CB73219914BF0020901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0CB74219914BF0020901F /* Build configuration list for PBXNativeTarget "BronCalendarLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0CB75219914BF0020901F /* Debug */,
+				29C0CB76219914BF0020901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0CB77219914BF0020901F /* Build configuration list for PBXNativeTarget "BronCalendarLibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0CB78219914BF0020901F /* Debug */,
+				29C0CB79219914BF0020901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29C0CB3D219914BE0020901F /* Project object */;
+}
